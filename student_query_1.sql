@@ -16,7 +16,7 @@ CREATE TABLE student_dataset (
     school_name VARCHAR(20),
     student_address VARCHAR(50) 
 );
--- Gave me an error when i ran the database initially , so i had to update it and change the charecters of the column to 100 
+ 
 ALTER TABLE student_dataset
 ALTER COLUMN student_address TYPE VARCHAR(100);
 
@@ -256,3 +256,4 @@ WHERE math>=80 AND  physics>=80;
 
 --View the complete databse
 SELECT * FROM Science_Oriented;
+
